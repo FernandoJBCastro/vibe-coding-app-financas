@@ -318,9 +318,13 @@ Resultado final no Lovable: https://app-organizador-financas-pessoais.lovable.ap
 <table align="center">
   <tr>
     <td align="center">
-      <img src="img/009_Icone_App.png" width="200"><br>
+      <img src="img/009_Icone_App.png" width="50"><br>
       Ícone do App
     </td>
+  </tr>
+</table>
+<table align="center">
+  <tr>
     <td align="center">
       <img src="img/005_Lovable_Tela_Inicio_App.png" width="200"><br>
       Tela Inicial
