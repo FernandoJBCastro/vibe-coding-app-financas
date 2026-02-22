@@ -1,6 +1,25 @@
 # 💸 Aplicativo de Organização de Finanças Pessoais Conversacional
 
-PRD revisado pelo ChatGPT
+## 📌 Sobre o Projeto
+
+Aplicativo de organização financeira pessoal baseado em conversação em linguagem natural.
+
+A proposta é permitir que o usuário registre, acompanhe e melhore sua vida financeira de forma simples, intuitiva e humanizada — sem planilhas complexas ou formulários extensos.
+
+O sistema atua como um **Agente Financeiro Inteligente**, entendendo comandos como:
+
+> “Gastei 45 reais com pizza ontem”
+> “Recebi 3 mil de salário hoje”
+> “Quero guardar 500 reais por mês”
+
+---
+
+# 📄 PRD Final (Product Requirements Document)
+
+PRD revisado com apoio do ChatGPT e utilizado como base para geração do App no Lovable.
+
+<details>
+<summary><strong>Clique para expandir o PRD completo</strong></summary>
 
 ```markdown
 Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document):
@@ -301,143 +320,194 @@ Validar se:
 
 ```
 
-Interações com o Lovable:
-
-> Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
-
-> Ajuste para que tenha autenticação por e-mail e senha
-
-> Sim, com perfil (Você precisa armazenar dados de perfil do usuário (como nome, avatar, preferências) além do e-mail e senha?)
-
-> Enviado "Habilitar Nuvem"
-
-> Permitido "Modificar banco de dados"
-
-Resultado final no Lovable: https://app-organizador-financas-pessoais.lovable.app
-
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="img/009_Icone_App.png" width="100"><br>
-      Ícone do App
-    </td>
-  </tr>
-</table>
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="img/005_Lovable_Tela_Inicio_App.png" width="400"><br>
-      Tela Inicial
-    </td>
-  </tr>
-</table>
-
-## Funcionalidades do App de Organização de Finanças Pessoais Conversacional
-
-O aplicativo oferece uma experiência de organização financeira baseada em conversação, com foco em simplicidade, inteligência e acessibilidade.
+</details>
 
 ---
 
-### 1. Registro de Transações por Conversa
+# 🤖 Interações com o Lovable
+
+Principais comandos utilizados:
+
+```
+Crie um App de Finanças Pessoais com base no seguinte PRD (Product Requirements Document): {PRD}
+```
+
+```
+Ajuste para que tenha autenticação por e-mail e senha
+```
+
+```
+Sim, com perfil (Você precisa armazenar dados de perfil do usuário (como nome, avatar, preferências) além do e-mail e senha?)
+```
+
+Configurações habilitadas:
+
+* ✅ Habilitar Nuvem
+* ✅ Modificar banco de dados
+
+🔗 **Resultado final no Lovable:**
+[https://app-organizador-financas-pessoais.lovable.app](https://app-organizador-financas-pessoais.lovable.app)
+
+---
+
+# 🖼️ Interface do Aplicativo
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="img/004_Lovable_Tela_Login_App.png" width="300"><br>
+      <sub><b>Tela de Login do App</b></sub>
+    </td>
+    <td align="center">
+      <img src="img/005_Lovable_Tela_Inicio_App.png" width="300"><br>
+      <sub><b>Tela Inicial do App</b></sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+# 🚀 Funcionalidades do Aplicativo
+
+## 1️⃣ Registro de Transações por Conversa
 
 Permite registrar despesas e receitas utilizando linguagem natural.
 
 **Recursos:**
-- Entrada em texto livre (chat)
-- Reconhecimento automático de valor
-- Identificação de data
-- Identificação de categoria
-- Identificação de tipo (receita ou despesa)
-- Confirmação automática da transação
+
+* Entrada em texto livre (chat)
+* Reconhecimento automático de valor
+* Identificação de data
+* Identificação de categoria
+* Identificação de tipo (receita ou despesa)
+* Confirmação automática da transação
 
 **Exemplo:**
+
 > Gastei 45 reais no supermercado hoje.
 
 ---
 
-### 2. Classificação Automática Inteligente
+## 2️⃣ Classificação Automática Inteligente
 
 Sistema de categorização automática com apoio de IA.
 
 **Recursos:**
-- Sugestão automática de categoria
-- Possibilidade de correção manual
-- Aprendizado baseado no histórico do usuário
+
+* Sugestão automática de categoria
+* Possibilidade de correção manual
+* Aprendizado baseado no histórico do usuário
 
 ---
 
-### 3. Metas Financeiras
+## 3️⃣ Metas Financeiras
 
 Permite criar e acompanhar objetivos financeiros.
 
 **Recursos:**
-- Criação de metas personalizadas
-- Cálculo automático de progresso
-- Exibição do percentual atingido
-- Alertas inteligentes de acompanhamento
+
+* Criação de metas personalizadas
+* Cálculo automático de progresso
+* Exibição do percentual atingido
+* Alertas inteligentes de acompanhamento
 
 ---
 
-### 4. Agente Financeiro
+## 4️⃣ Agente Financeiro
 
 Assistente virtual que oferece orientação personalizada.
 
 **Recursos:**
-- Recomendações de economia
-- Alertas de excesso de gastos
-- Sugestões de melhoria financeira
-- Mensagens educativas
+
+* Recomendações de economia
+* Alertas de excesso de gastos
+* Sugestões de melhoria financeira
+* Mensagens educativas
 
 ---
 
-### 5. Relatórios Simplificados
+## 5️⃣ Relatórios Simplificados
 
 Visão clara e objetiva da situação financeira.
 
 **Recursos:**
-- Resumo mensal de receitas e despesas
-- Principais categorias de gastos
-- Comparação com mês anterior
+
+* Resumo mensal de receitas e despesas
+* Principais categorias de gastos
+* Comparação com mês anterior
 
 ---
 
-### 6. Visualização Gráfica Acessível
+## 6️⃣ Visualização Gráfica Acessível
 
 Gráficos simples e de fácil interpretação.
 
 **Recursos:**
-- Gráfico de barras
-- Gráfico de distribuição por categoria
-- Indicadores visuais de progresso
-- Alternativa textual para acessibilidade
+
+* Gráfico de barras
+* Gráfico de distribuição por categoria
+* Indicadores visuais de progresso
+* Alternativa textual para acessibilidade
 
 ---
 
-### 7. Design Universal
+## 7️⃣ Design Universal
 
 Interface projetada para inclusão e facilidade de uso.
 
 **Princípios aplicados:**
-- Interface clara e objetiva
-- Alto contraste
-- Compatibilidade com leitores de tela
-- Linguagem inclusiva
-- Navegação intuitiva
 
+* Interface clara e objetiva
+* Alto contraste
+* Compatibilidade com leitores de tela
+* Linguagem inclusiva
+* Navegação intuitiva
 
-## Reflexão sobre o processo:
+---
 
-### O que funcionou bem?
+# 🧠 Reflexão sobre o Processo
+
+## ✅ O que funcionou bem?
+
 O refinamento prévio do PRD conduzido no ChatGPT foi determinante para a otimização do processo, considerando que os créditos disponíveis na plataforma Lovable foram consumidos após apenas duas interações.
-As sugestões e melhorias incorporadas pelo ChatGPT elevaram o nível de completude e detalhamento do PRD, permitindo sua utilização direta na plataforma Lovable com maior precisão e eficiência.
 
-### O que não funcionou como o esperado?
-Durante o processo de revisão assistida por IA, suegiu desafios como: necessidade de validação humana para evitar ambiguidades ou inconsistências, risco de interpretações genéricas em requisitos pouco específicos, ajustes finos de escopo para adequação às limitações técnicas da plataforma e retrabalho decorrente de desalinhamento entre expectativa funcional e implementação automatizada.
+As sugestões e melhorias incorporadas elevaram o nível de completude e detalhamento do PRD, permitindo sua utilização direta na plataforma com maior precisão e eficiência.
 
-Na utilização do Lovable para geração do App, tivemos como dificuldades o consumo acelerado de créditos em ciclos iterativos de ajuste, necessidade de refinamento incremental dos prompts para obter resultados mais aderentes ao PRD e eventuais limitações da ferramenta quanto à personalização avançada, integrações externas ou regras de negócio mais complexas.
+---
 
-### O que aprendeu sobre conversar com IAs?
-Aprendi que conversar com IAs é um processo essencialmente iterativo e estratégico. A qualidade das respostas está diretamente relacionada ao nível de clareza, contexto e especificidade fornecidos no prompt. Durante a revisão do PRD, ficou evidente que instruções vagas geram saídas genéricas, enquanto direcionamentos estruturados, com definição de escopo, objetivos, restrições e público-alvo, produzem resultados muito mais alinhados às expectativas do projeto. Também percebi que a IA funciona melhor quando orientada por etapas, com validações intermediárias, refinamentos progressivos e feedback explícito, reduzindo ambiguidades e retrabalho.
+## ⚠️ O que não funcionou como o esperado?
 
-Além disso, aprendi que a IA não substitui o pensamento crítico humano, mas potencializa a produtividade quando utilizada como ferramenta de apoio à tomada de decisão. Na utilização do Lovable para criação do App, ficou claro que a precisão na comunicação impacta diretamente o consumo de créditos, a qualidade das entregas automatizadas e o nível de aderência ao PRD. Assim, conversar com IAs exige objetividade, capacidade de estruturar problemas e habilidade para ajustar instruções conforme as respostas recebidas, transformando a interação em um ciclo contínuo de melhoria e otimização.
+Durante o processo de revisão assistida por IA surgiram desafios como:
 
+* Necessidade de validação humana para evitar ambiguidades
+* Risco de interpretações genéricas em requisitos pouco específicos
+* Ajustes finos de escopo para adequação às limitações técnicas
+* Retrabalho decorrente de desalinhamento entre expectativa funcional e implementação automatizada
+
+Na utilização do Lovable:
+
+* Consumo acelerado de créditos em ciclos iterativos
+* Necessidade de refinamento incremental dos prompts
+* Limitações quanto à personalização avançada e regras de negócio complexas
+
+---
+
+## 🎯 O que aprendi sobre conversar com IAs?
+
+Conversar com IAs é um processo iterativo e estratégico.
+
+A qualidade das respostas está diretamente relacionada ao nível de clareza, contexto e especificidade fornecidos no prompt.
+
+Ficou evidente que:
+
+* Instruções vagas geram saídas genéricas
+* Prompts estruturados produzem resultados mais alinhados
+* Etapas, validações intermediárias e refinamentos progressivos reduzem retrabalho
+
+Aprendi também que a IA não substitui o pensamento crítico humano — ela potencializa a produtividade quando utilizada como ferramenta de apoio.
+
+A precisão na comunicação impacta diretamente:
+
+* Consumo de créditos
+* Qualidade das entregas automatizadas
+* Aderência ao PRD
