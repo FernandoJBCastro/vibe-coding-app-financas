@@ -315,6 +315,10 @@ Interações com o Lovable:
 
 Resultado final no Lovable: https://app-organizador-financas-pessoais.lovable.app
 
+<p align="center">
+  <img src="img/009_Icone_App.png" width="200">
+</p>
+
 ## Funcionalidades do App de Organização de Finanças Pessoais Conversacional
 
 O aplicativo oferece uma experiência de organização financeira baseada em conversação, com foco em simplicidade, inteligência e acessibilidade.
