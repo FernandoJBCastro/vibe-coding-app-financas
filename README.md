@@ -313,7 +313,7 @@ Interações com o Lovable:
 
 > Permitido "Modificar banco de dados"
 
-Resultado final no Lovable: https://.....
+Resultado final no Lovable: https://app-organizador-financas-pessoais.lovable.app
 
 ## Funcionalidades do App de Organização de Finanças Pessoais Conversacional
 
