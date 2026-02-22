@@ -4,9 +4,7 @@ Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding u
 
 ## 📌 Sobre o Projeto
 
-Aplicativo de organização financeira pessoal baseado em conversação em linguagem natural.
-
-A proposta é permitir que o usuário registre, acompanhe e melhore sua vida financeira de forma simples, intuitiva e humanizada — sem planilhas complexas ou formulários extensos.
+A proposta é desenvolver um aplicativo de organização financeira pessoal baseado em conversação em linguagem natural, que permite ao usuário registrar, acompanhar e melhorar sua vida financeira de forma simples, intuitiva e humanizada — sem planilhas complexas ou formulários extensos.
 
 O sistema atua como um **Agente Financeiro Inteligente**, entendendo comandos como:
 
