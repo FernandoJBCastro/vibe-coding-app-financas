@@ -1,5 +1,7 @@
 # 💸 Aplicativo de Organização de Finanças Pessoais Conversacional
 
+Este projeto foi desenvolvido como um Desafio de Projeto da DIO de Vibe Coding utilizando o Lovable e o ChatGPT.
+
 ## 📌 Sobre o Projeto
 
 Aplicativo de organização financeira pessoal baseado em conversação em linguagem natural.
