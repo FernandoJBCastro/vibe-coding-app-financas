@@ -316,7 +316,13 @@ Interações com o Lovable:
 Resultado final no Lovable: https://app-organizador-financas-pessoais.lovable.app
 
 <p align="center">
-  <img src="img/009_Icone_App.png" width="200">
+  <figure>
+    <img src="img/009_Icone_App.png" width="200">
+    <figcaption>Ícone oficial do Aplicativo</figcaption>
+
+    <img src="img/005_Lovable_Tela_Inicio_App.png" width="200">
+    <figcaption>Tela inicial do aplicativo</figcaption>
+  </figure>
 </p>
 
 ## Funcionalidades do App de Organização de Finanças Pessoais Conversacional
